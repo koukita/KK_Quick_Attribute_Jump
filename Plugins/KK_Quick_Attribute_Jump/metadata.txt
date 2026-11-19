@@ -1,0 +1,23 @@
+[general]
+name=KK_Quick_Attribute_Jump
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+description=This tool displays an attribute table for a specified layer and attribute, filtered by a selected value from a category. Selecting a row in the attribute table locates the corresponding feature and navigates to its position on the map. Clicking the "Save Layer Settings" button within the "Layer Settings" section saves the configuration to a file named "KK_Quick_Attribute_Jump_Setting.json" in the same folder as the project. Clicking "Save Display Settings" within the "Display Settings" section creates a file named "Setting.json" in the same folder as the plugin and saves the configuration there.
+about=特定のレイヤ、属性を指定して、カテゴリから該当する値でフィルタリングした属性テーブルを表示します。属性テーブルで行を選択すると、属性値で地物を検索し、属性テーブルから地図上の位置へ移動します。「レイヤ設定」で「レイヤ設定保存」ボタンをクリックすると、プロジェクトと同じフォルダに「KK_Quick_Attribute_Jump_Setting.json」に設定を保存します。「表示設定」の「表示設定保存」をクリックするとプラグインと同じフォルダに「Setting.json」を作成し設定を保存します。
+
+version=0.9.0
+
+author=kouichi kita
+email=qgisshitumon@gmail.com
+homepage=https://github.com/koukita/KK_Quick_Attribute_Jump
+tracker=https://github.com/koukita/KK_Quick_Attribute_Jump/issues
+repository=https://github.com/koukita/KK_Quick_Attribute_Jump
+
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+
+changelog=
+    0.9.0 - 2026-11-19 
+    - 初版公開
