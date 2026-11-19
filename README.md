@@ -1,0 +1,2 @@
+# KK_Quick_Attribute_Jump
+属性データをカテゴリで抽出する
