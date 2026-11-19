@@ -734,6 +734,8 @@ class KKQuickAttributeJump:
             return
         self._style_button(self.place_button)
         for dialog in self.category_dialogs:
+            if isinstance(dialog, CategoryTablePanel):
+                continue
             for button in dialog.findChildren(QPushButton):
                 self._style_button(button)
 
